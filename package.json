@@ -1,0 +1,31 @@
+{
+  "name": "doge-on-rails",
+  "version": "1.0.0",
+  "description": "Doge on Rails",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "scripts/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greenboxal/doge-on-rails.git"
+  },
+  "keywords": [
+    "rails",
+    "restful",
+    "api",
+    "web",
+    "framework"
+  ],
+  "author": "Jonathan Lima <greenboxal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greenboxal/doge-on-rails/issues"
+  },
+  "homepage": "https://github.com/greenboxal/doge-on-rails",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2",
+    "inflected": "^1.1.6"
+  }
+}
