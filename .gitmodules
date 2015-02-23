@@ -1,3 +1,3 @@
-[submodule "lib/saphire"]
-	path = lib/saphire
+[submodule "lib/dails/saphire"]
+	path = lib/dails/saphire
 	url = https://github.com/greenboxal/saphire.git

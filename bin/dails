@@ -1,0 +1,5 @@
+#!/usr/bin/env node --harmony_proxies
+
+require('../lib/dails/bootstrap');
+require('dails/cli');
+

@@ -2,7 +2,7 @@
   "name": "doge-on-rails",
   "version": "1.0.0",
   "description": "Doge on Rails",
-  "main": "lib/index.js",
+  "main": "lib/dails/index.js",
   "scripts": {
     "test": "scripts/test.sh"
   },
@@ -24,8 +24,12 @@
   },
   "homepage": "https://github.com/greenboxal/doge-on-rails",
   "dependencies": {
+    "bluebird": "^2.9.12",
     "body-parser": "^1.11.0",
+    "commander": "^2.6.0",
     "express": "^4.11.2",
-    "inflected": "^1.1.6"
+    "include-path": "^0.4.7",
+    "inflected": "^1.1.6",
+    "tsort": "0.0.1"
   }
 }
